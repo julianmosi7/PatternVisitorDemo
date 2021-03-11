@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ElementLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ElementLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ElementLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ElementLib/1.0.0": {
+      "type": "project",
+      "path": "../ElementLib/ElementLib.csproj",
+      "msbuildProject": "../ElementLib/ElementLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ElementLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mosha\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mosha\\Documents\\Schule\\5.Klasse\\POS\\PatternVisitorDemo_Vorlage\\VisitorLib\\VisitorLib.csproj",
+      "projectName": "VisitorLib",
+      "projectPath": "C:\\Users\\mosha\\Documents\\Schule\\5.Klasse\\POS\\PatternVisitorDemo_Vorlage\\VisitorLib\\VisitorLib.csproj",
+      "packagesPath": "C:\\Users\\mosha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mosha\\Documents\\Schule\\5.Klasse\\POS\\PatternVisitorDemo_Vorlage\\VisitorLib\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mosha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5",
+          "projectReferences": {
+            "C:\\Users\\mosha\\Documents\\Schule\\5.Klasse\\POS\\PatternVisitorDemo_Vorlage\\ElementLib\\ElementLib.csproj": {
+              "projectPath": "C:\\Users\\mosha\\Documents\\Schule\\5.Klasse\\POS\\PatternVisitorDemo_Vorlage\\ElementLib\\ElementLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
